@@ -4,7 +4,7 @@ node {
         currentBuild.result = "SUCCESS"
         def workspace = pwd()
         def directory = "icinga2"
-
+	#test for git
         stage 'Clean Workspace'
             deleteDir()
 
